@@ -1,0 +1,56 @@
+.ventana_tarjetitas {
+    background-color:$secondaryColor ;
+
+    h1{
+        font-family: $fontRoboto;
+        padding: 20px;
+    }
+
+    .tarjetitas_principal {
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+
+        .card {
+            background-color: $mainColor;
+            padding: 30px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 33%;
+
+            .card__image {
+               width: 100%;
+             }
+
+             h2 {
+                font-family:$fontRoboto; 
+                font-size:  30px;
+                margin-bottom: 15px;
+                text-align: center;
+             }
+
+             p {
+                font-family: $fontRoboto;
+                font-size:medium;
+                line-height: 1.5;
+             }
+
+             .btn-outline {
+                 font-family:$fontRoboto; 
+                 display: inline-block;
+                 padding: 10px;
+                 margin-top: 10px;
+                 border-radius: 4px;
+                 /*transition:all 400ms ease;*/
+                 color:#0d89ba;
+                 
+             }
+
+        }
+    }
+}

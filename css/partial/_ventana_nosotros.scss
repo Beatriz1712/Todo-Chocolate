@@ -1,0 +1,26 @@
+.ventana_nosotros {
+    background-color:$secondaryColor;
+
+    h1{
+        font-family: $fontRoboto;
+        padding: 20px;
+    }
+
+    .section_parrafos {
+        background-color:$secondaryColor;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px ;
+        height: 100%;
+        border-radius: 10px;
+    
+        .parrafo {
+            padding:  20px 60px ;
+            background-color: $mainColor;
+            margin: auto;
+            font-family: $fontRoboto;
+        }
+    }
+}

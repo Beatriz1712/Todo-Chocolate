@@ -1,0 +1,15 @@
+.footer {
+    background-color: $mainColor;
+    font-family: $fontRoboto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .brown {
+        color: black;
+        font-size: 50px;
+    }
+    
+}
