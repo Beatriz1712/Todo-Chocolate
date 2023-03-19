@@ -128,11 +128,11 @@ h3 {
 
 */
 /**********  PRODUCTOS  **********/
-
+/*
 .ventana_tarjetas_productos{
    background-color: #EEE8AA;
    
-}
+}*/
 /*
 .todo_tarjetas_seccion {
     padding-bottom: 5px;
@@ -301,36 +301,40 @@ h3 {
 }
 
 @media screen and (max-width : 972px) {
-    .tarjetas_seccion {
-        flex-wrap: wrap;
-        background-color: #ffc0cb;
-    } 
-
     .tarjetitas_principal {
         flex-direction: column;
         background-color: #ffc0cb;
         justify-content: center;
         align-items: center;
         width: auto;
-
-    } 
-
-    .card {
-        width: 80%;
     } 
 
     .navbar {
         background-color: #ffc0cb;
     }
-    
-    .iframe {
-        width: 90%;
-    }
+
     .footer {
         gap :10px;
     }
+
     .todo_tarjetas_seccion {
         padding-bottom: 5px;
         padding-left: 1px;   
     }
+
+    .card {
+        width: 80%;
+    } 
+    
+    .tarjetas_seccion {
+        flex-wrap: wrap;
+        background-color: #ffc0cb;
+    } 
+
+    
+
+    .iframe {
+        width: 90%;
+    }
+  
 }

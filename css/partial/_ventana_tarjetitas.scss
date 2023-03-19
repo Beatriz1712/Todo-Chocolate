@@ -9,10 +9,12 @@
     .tarjetitas_principal {
         display: flex;
         justify-content:center;
-        flex-direction: row;
+        
         width: 100%;
         padding: 10px;
         gap: 10px;
+
+       
 
         .card {
             background-color: $mainColor;
@@ -22,6 +24,8 @@
             flex-direction: column;
             gap: 10px;
             width: 33%;
+
+            
 
             .card__image {
                width: 100%;
