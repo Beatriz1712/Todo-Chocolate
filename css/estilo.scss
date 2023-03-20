@@ -1,15 +1,12 @@
-
-@import"./partial/variables";/*variables siempre arriba de todo*/
-@import"./partial/reset";/*siempre debajo de las variables y arriba del resto*/
+@import"./partial/medias-queries";
+@import"./partial/variables";
+@import"./partial/reset";
 @import"./partial/header";
-
 @import"./partial/ventana_tarjetitas";
 @import"./partial/footer";
 @import"./partial/ventana_nosotros";
-
 @import"./partial/ventanas_tarjetas_productos";
-
 @import"./partial/ventana_google_maps";
 @import"./partial/ventana_contacto";
-@import"./partial/medias-querys";
-  /*debajo de todo*/
+
+  

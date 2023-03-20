@@ -181,7 +181,7 @@ h3 {
     flex-direction: column;
     width: 300px;
 }
-*/
+*//*
 .producto_chocolate_imagen {
     width: 100%;
     height: 100%; 
@@ -292,7 +292,7 @@ h3 {
 .btn_enviar:hover{
     transform: scale(1.3);
 }
-*/
+*//*
 @media screen and (max-width : 1262px) {
     .tarjetas_seccion {
         flex-wrap: wrap;
@@ -338,3 +338,4 @@ h3 {
     }
   
 }
+*/
