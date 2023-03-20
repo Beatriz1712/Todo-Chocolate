@@ -14,7 +14,9 @@
         padding: 10px;
         gap: 10px;
 
-       
+       @include mobile {
+        background-color: aqua;
+       }
 
         .card {
             background-color: $mainColor;
