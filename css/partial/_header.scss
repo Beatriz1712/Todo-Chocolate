@@ -19,13 +19,18 @@ header {
             justify-content:space-around;
             align-items: center;
             font-family:$fontRoboto;
-            font-size: 25px;  
-            
+            font-size: 25px;
+            padding-top: 10px;  
+            &:hover {
+                transform:rotate(30deg);
+             }
             .nav-item {
 
-                a{
+                a {
                     color : rgb(47, 5, 5);
                     text-decoration:none;
+
+                    
                 }
             }
         }

@@ -26,6 +26,10 @@ header .navbar .navbar-nav li {
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
+  padding-top: 10px;
+}
+header .navbar .navbar-nav li:hover {
+  transform: rotate(30deg);
 }
 header .navbar .navbar-nav li .nav-item a {
   color: rgb(47, 5, 5);
@@ -108,7 +112,7 @@ header .navbar .navbar-nav li .nav-item a {
   align-items: center;
 }
 .footer .brown {
-  color: black;
+  color: pink;
   font-size: 45px;
 }
 .footer .brown:hover {
@@ -182,7 +186,6 @@ header .navbar .navbar-nav li .nav-item a {
     background-color: #FF70A6;
     justify-content: center;
     align-items: center;
-    width: auto;
   }
 }
 .ventana_tarjetas_productos .todo_tarjetas_seccion .tarjetas_seccion .tarjeta_chocolate {
@@ -265,11 +268,12 @@ header .navbar .navbar-nav li .nav-item a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .ventana_contacto h1 {
   font-family: "Roboto", sans-serif;
   padding: 20px;
+  text-align: left;
 }
 .ventana_contacto .formulario {
   background-color: #FF70A6;
