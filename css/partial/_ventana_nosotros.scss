@@ -3,7 +3,7 @@
 
     h1 {
         font-family: $fontRoboto;
-        padding: 20px;
+        padding: 10px;
     }
 
     .section_parrafos {
@@ -14,17 +14,22 @@
         align-items: center;
         padding: 20px;
         height: 100%;
-        border-radius: 10px;
 
-        .parrafo {
-            padding: 20px 60px;
-            background-color: $mainColor;
-            margin: auto;
-            font-family: $fontRoboto;
+        .todos-parrafos {
+            border-radius: 10px;
+            background-color: $mainColor ;
 
-            &::selection {
-                background: $secondaryColor;
-                color: rgba(0, 0, 0, 0.738);
+            .parrafo {
+                background-color: $mainColor;
+                padding: 20px;
+                align-content: center;
+                margin: auto;
+                font-family: $fontRoboto;
+
+                &::selection {
+                    background: $secondaryColor;
+                    color: rgba(0, 0, 0, 0.738);
+                }
             }
         }
     }

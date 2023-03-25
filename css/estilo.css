@@ -13,13 +13,16 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 header .logo {
   width: 8rem;
 }
+
 header .navbar {
   background-color: #FF70A6;
   justify-content: end;
 }
+
 header .navbar .navbar-nav li {
   display: flex;
   justify-content: space-around;
@@ -27,6 +30,7 @@ header .navbar .navbar-nav li {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
 }
+
 header .navbar .navbar-nav li .nav-item a {
   color: rgb(47, 5, 5);
   text-decoration: none;
@@ -35,10 +39,12 @@ header .navbar .navbar-nav li .nav-item a {
 .ventana_tarjetitas {
   background-color: #FFD670;
 }
+
 .ventana_tarjetitas h1 {
   font-family: "Roboto", sans-serif;
   padding: 20px;
 }
+
 .ventana_tarjetitas .tarjetitas_principal {
   display: flex;
   justify-content: center;
@@ -46,6 +52,7 @@ header .navbar .navbar-nav li .nav-item a {
   padding: 10px;
   gap: 50px;
 }
+
 @media screen and (max-width: 972px) {
   .ventana_tarjetitas .tarjetitas_principal {
     flex-wrap: wrap;
@@ -111,16 +118,16 @@ header .navbar .navbar-nav li .nav-item a {
   color: black;
   font-size: 50px;
 }
-
+/********** NOSOTROS **********/
 .ventana_nosotros {
   background-color: #FFD670;
 }
 .ventana_nosotros h1 {
   font-family: "Roboto", sans-serif;
-  padding: 20px;
+  padding: 20px 20px 1px 20px;
 }
 .ventana_nosotros .section_parrafos {
-  background-color: #FFD670;
+  background-color:#FFD670;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,11 +136,15 @@ header .navbar .navbar-nav li .nav-item a {
   height: 100%;
   border-radius: 10px;
 }
-.ventana_nosotros .section_parrafos .parrafo {
-  padding: 20px 60px;
+.ventana_nosotros .section_parrafos .todos-parrafos {
+  border-radius: 10px;
   background-color: #FF70A6;
+}
+.ventana_nosotros .section_parrafos .todos-parrafos .parrafo {
+  padding: 20px;
   margin: auto;
   font-family: "Roboto", sans-serif;
+  
 }
 .ventana_nosotros .section_parrafos .parrafo::-moz-selection {
   background: #FFD670;
@@ -144,6 +155,7 @@ header .navbar .navbar-nav li .nav-item a {
   color: rgba(0, 0, 0, 0.738);
 }
 
+/********** PRODUCTOS **********/
 .ventana_tarjetas_productos {
   background-color: #FFD670;
 }
