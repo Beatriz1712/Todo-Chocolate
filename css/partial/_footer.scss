@@ -9,7 +9,10 @@
 
     .brown {
         color: black;
-        font-size: 50px;
+        font-size: 45px;
+        &:hover {
+            transform: scale(1.3);
+        }
     }
     
 }
