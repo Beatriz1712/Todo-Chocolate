@@ -10,19 +10,16 @@ header {
   background-color: #FF70A6;
   padding: 10px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
-
 header .logo {
   width: 8rem;
 }
-
 header .navbar {
   background-color: #FF70A6;
   justify-content: end;
 }
-
 header .navbar .navbar-nav li {
   display: flex;
   justify-content: space-around;
@@ -30,7 +27,6 @@ header .navbar .navbar-nav li {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
 }
-
 header .navbar .navbar-nav li .nav-item a {
   color: rgb(47, 5, 5);
   text-decoration: none;
@@ -39,12 +35,10 @@ header .navbar .navbar-nav li .nav-item a {
 .ventana_tarjetitas {
   background-color: #FFD670;
 }
-
 .ventana_tarjetitas h1 {
   font-family: "Roboto", sans-serif;
   padding: 20px;
 }
-
 .ventana_tarjetitas .tarjetitas_principal {
   display: flex;
   justify-content: center;
@@ -52,7 +46,6 @@ header .navbar .navbar-nav li .nav-item a {
   padding: 10px;
   gap: 50px;
 }
-
 @media screen and (max-width: 972px) {
   .ventana_tarjetitas .tarjetitas_principal {
     flex-wrap: wrap;
@@ -118,44 +111,44 @@ header .navbar .navbar-nav li .nav-item a {
   color: black;
   font-size: 50px;
 }
-/********** NOSOTROS **********/
+
 .ventana_nosotros {
   background-color: #FFD670;
 }
 .ventana_nosotros h1 {
   font-family: "Roboto", sans-serif;
-  padding: 20px 20px 1px 20px;
+  padding: 20px;
 }
 .ventana_nosotros .section_parrafos {
-  background-color:#FFD670;
+  background-color: #FFD670;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
   height: 100%;
-  border-radius: 10px;
 }
 .ventana_nosotros .section_parrafos .todos-parrafos {
   border-radius: 10px;
   background-color: #FF70A6;
+  margin-bottom: 20px;
 }
 .ventana_nosotros .section_parrafos .todos-parrafos .parrafo {
+  background-color: #FF70A6;
   padding: 20px;
+  align-content: center;
   margin: auto;
   font-family: "Roboto", sans-serif;
-  
 }
-.ventana_nosotros .section_parrafos .parrafo::-moz-selection {
+.ventana_nosotros .section_parrafos .todos-parrafos .parrafo::-moz-selection {
   background: #FFD670;
   color: rgba(0, 0, 0, 0.738);
 }
-.ventana_nosotros .section_parrafos .parrafo::selection {
+.ventana_nosotros .section_parrafos .todos-parrafos .parrafo::selection {
   background: #FFD670;
   color: rgba(0, 0, 0, 0.738);
 }
 
-/********** PRODUCTOS **********/
 .ventana_tarjetas_productos {
   background-color: #FFD670;
 }
@@ -254,6 +247,7 @@ header .navbar .navbar-nav li .nav-item a {
   height: 100%;
   padding: 15px;
   justify-content: center;
+  border-radius: 10px;
 }
 .ventana_google_maps .maps .iframe {
   display: flex;
@@ -268,6 +262,7 @@ header .navbar .navbar-nav li .nav-item a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .ventana_contacto h1 {
   font-family: "Roboto", sans-serif;
@@ -275,11 +270,19 @@ header .navbar .navbar-nav li .nav-item a {
 }
 .ventana_contacto .formulario {
   background-color: #FF70A6;
+  border-radius: 10px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  width: 99%;
   padding: 30px;
   margin: 10px;
+}
+.ventana_contacto .formulario .parrafo_contacto {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
 }
 .ventana_contacto .formulario .form-control {
   margin: 20px;
